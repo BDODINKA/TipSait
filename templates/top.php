@@ -31,7 +31,37 @@
                     <li><a href="/login.php">Войти</a></li>
                     <li><a href="/register.php">Зарегистрироваться</a></li>
                 </ul>
+                <ul class="registration">
+                    <? if ($_SESSION['user_id']) { ?>
+                        <li>
+                            <a class="registration" href="/cabinet.php">Кабинет</a>
+                        </li>
+                        <li>
+                            <a class="registration" href="/logout.php">Выход</a>
+                        </li>
+                        <?
+                        if (isset($profile_user['id'])) {
+                            ?>
+                            <li>
+                                <img src="<?= $profile_user['picture'] ?>">
+                            </li>
+                        <? } ?>
+                    <? } else { ?>
+                        <li>
+                            <a class="registration" href="/register.php">
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="registration" href="/login.php">
+
+                            </a>
+                        </li>
+
+                    <? } ?>
+                </ul>
             </div>
+
         </header>
     </div>
 </div>

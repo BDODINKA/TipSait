@@ -1,6 +1,6 @@
 <?php require_once('templates/top.php') ;
 if (!empty($_POST)){
-    $query = "SELECT * FROM users WHERE email='{$_POST['email']}' AND password='{$_POST['pass']}' AND status='default' LIMIT 1";
+    $query = "SELECT * FROM users WHERE name='{$_POST['name']}' AND password='{$_POST['password']}' AND status='default' LIMIT 1";
     $result = mysqli_query($link, $query);
     if (!$result){
         echo 'Ошибка';
@@ -26,12 +26,12 @@ if (!empty($_POST)){
     <h1 title="Авторизация на сайте"></h1>
     <div class="group">
         <label>Имя пользователя
-            <input type="text">
+            <input type="text" name="name">
         </label>
     </div>
     <div class="group">
         <label>Пароль
-            <input type="password">
+            <input type="password" name="password">
         </label>
     </div>
     <div class="group">

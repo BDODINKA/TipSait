@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f897d5ad-b291-4003-98d4-f03cf239df88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cabinet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../basicPhp/.idea/basicPhp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/top.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/top.php" afterDir="false" />
@@ -89,7 +90,7 @@
       <workItem from="1592332278351" duration="1115000" />
       <workItem from="1592398812466" duration="7812000" />
       <workItem from="1592495565839" duration="3437000" />
-      <workItem from="1592501423877" duration="973000" />
+      <workItem from="1592501423877" duration="4176000" />
     </task>
     <servers />
   </component>
@@ -125,10 +126,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1592329773442" />
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1592327987682">
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1592505468241">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1592327987682" />
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1592505468241" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1592398929008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
