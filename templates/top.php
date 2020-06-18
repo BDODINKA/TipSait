@@ -1,7 +1,4 @@
 <?session_start();?>
-
-
-
 <? require_once('config/config.php');?>
 <!doctype html>
 <html lang="ru">
