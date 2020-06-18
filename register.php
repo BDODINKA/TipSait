@@ -1,7 +1,7 @@
 <?php require_once('templates/top.php') ;
 if (!empty($_POST)){
     $error = [];
-    if ($_POST['password'] != $_POST['password_repeat']){
+    if ($_POST['password'] != $_POST['password-repeat']){
         $error[] = 'Не совпадают пароли';
     }
     if (empty($error)){
@@ -16,38 +16,37 @@ if (!empty($_POST)){
             <?
 
         }
+
     }
 }
 
 
 
 ?>
-<form action="register.php" method="post">
-    <h1 title="Регистрация на сайте"></h1>
-    <div class="group">
-        <label>Имя пользователя
-            <input type="text" name="name">
-        </label>
+<div class="body">
+<form action="register.php" class="form" method="post">
+    <h1 class="form_title">Регистрация на сайте</h1>
+    <div class="form_group">
+        <input class="form_input" name="name">
+        <label class="form_label">Имя пользователя</label>
     </div>
-    <div class="group">
-        <label>Пароль
-            <input type="password" name="password">
-        </label>
+    <div class="form_group">
+        <input class="form_input" name="password">
+        <label class="form_label">Пароль</label>
     </div>
-    <div class="group">
-        <label>Повтор пароля
-            <input type="password" name="password_repeat">
-        </label>
+    <div class="form_group">
+        <input class="form_input" name="password-repeat">
+        <label class="form_label">Повторите пароль</label>
     </div>
-    <div class="group">
-        <label>Еmail
-            <input type="email" name="email">
-        </label>
+    <div class="form_group">
+        <input class="form_input" name="Email">
+        <label class="form_label">Email</label>
     </div>
-    <div class="group">
-        <button>Регистрация</button>
-    </div>
+    <button class="form_button" name="registation">Регистрация</button>
+
+
 </form>
+</div>
 
 
 <?php require_once('templates/bottom.php') ?>

@@ -117,3 +117,22 @@ li>ul>li>a{
     text-decoration: darkgreen;
     font-size: 18px;
 }
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.form{
+    width: 450px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #464a4e;
+    letter-spacing:1px;
+}
+.form_input,
+.form_button{
+    letter-spacing: 16px;
+    font-size: 10px;
+}
