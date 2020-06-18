@@ -1,3 +1,7 @@
+<?session_start();?>
+
+
+
 <? require_once('config/config.php');?>
 <!doctype html>
 <html lang="ru">
@@ -27,7 +31,7 @@
                 </ul>
                 <span class="tel">+375292000327</span>
                 <ul class="registration">
-                    <li><a href="/auth.html">Войти</a></li>
+                    <li><a href="/login.php">Войти</a></li>
                     <li><a href="/register.php">Зарегистрироваться</a></li>
                 </ul>
             </div>

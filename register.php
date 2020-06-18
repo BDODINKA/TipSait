@@ -4,6 +4,26 @@ if (!empty($_POST)){
     if ($_POST['password'] != $_POST['password-repeat']){
         $error[] = 'Не совпадают пароли';
     }
+    $query = "SELECT * FROM users WHERE email = '".$_POST['email']."'";
+
+    $usr = mysqli_query($link, $query);
+
+    /*
+     Если пользователя нет, то отключаемся. Иначе, добавляем ошибку
+     */
+    if(!$usr)
+    {
+        exit($query);
+    }
+
+    $check = @mysqli_fetch_array($usr);
+
+    #print_r($check);
+
+    if($check['id'])
+    {
+        $error[] = "Пользователь с таким именем уже существует";
+    }
     if (empty($error)){
         $query = "INSERT INTO users VALUES (NULL,'{$_POST['name']}','{$_POST['email']}','{$_POST['password']}','default',NOW(),NOW())";
         $result = mysqli_query($link, $query);
@@ -15,6 +35,12 @@ if (!empty($_POST)){
             </script>
             <?
 
+        }
+
+    }else{
+
+        foreach ($error as $item) {
+            echo $item . '<br>';
         }
 
     }
