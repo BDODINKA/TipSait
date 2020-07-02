@@ -70,7 +70,7 @@
         <nav>
             <ul>
                 <li><a href="/index.php">Главная</a></li>
-                <li><a href="/about.html">О магазине</a></li>
+                <li><a href="/about.php">О магазине</a></li>
                 <li>
                     <a href="/index.php">Каталог</a>
                     <ul>
@@ -84,7 +84,7 @@
                 <li><a href="/index.php">Скидки</a></li>
                 <li><a href="/index.php">Оплата</a></li>
                 <li><a href="/index.php">Доставка</a></li>
-                <li><a href="/contacts.html">Контакты</a></li>
+                <li><a href="/contacts.php">Контакты</a></li>
             </ul>
         </nav>
     </div>

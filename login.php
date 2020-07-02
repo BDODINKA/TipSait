@@ -38,4 +38,8 @@ if (!empty($_POST)){
         <button>Войти</button>
     </div>
 </form>
+
+
+
+
 <?php require_once('templates/bottom.php') ?>
