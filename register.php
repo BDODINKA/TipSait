@@ -49,25 +49,25 @@ if (!empty($_POST)){
 
 
 ?>
-<div class="body">
+<div class="group">
 <form action="register.php" class="form" method="post">
     <h1 class="form_title">Регистрация на сайте</h1>
-    <div class="form_group">
+  
         <input class="form_input" name="name">
         <label class="form_label">Имя пользователя</label>
-    </div>
-    <div class="form_group">
+ 
+   
         <input class="form_input" name="password">
         <label class="form_label">Пароль</label>
-    </div>
-    <div class="form_group">
+    
+    
         <input class="form_input" name="password-repeat">
         <label class="form_label">Повторите пароль</label>
-    </div>
-    <div class="form_group">
+    
+    
         <input class="form_input" name="Email">
         <label class="form_label">Email</label>
-    </div>
+
     <button class="form_button" name="registation">Регистрация</button>
 
 

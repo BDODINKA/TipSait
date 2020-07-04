@@ -22,22 +22,21 @@ if (!empty($_POST)){
 }
 
     ?>
+     <div class="group">
 <form action="login.php" class="form" method="post">
     <h1 title="Авторизация на сайте"></h1>
-    <div class="group">
+    
         <label>Имя пользователя
             <input type="text" name="name">
-        </label>
-    </div>
-    <div class="group">
+        </label></br>
+ 
+
         <label>Пароль
             <input type="password" name="password">
-        </label>
-    </div>
-    <div class="group">
-        <button>Войти</button>
-    </div>
+        </label></br>
+     <button>Войти</button>
 </form>
+     </div>
 
 
 

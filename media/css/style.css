@@ -130,6 +130,9 @@ li>ul>li>a{
     border-radius: 10px;
     box-shadow: 0 4px 16px #464a4e;
     letter-spacing:1px;
+    position: fixed; left: 30%;
+    margin-top: 100px;
+
 }
 .form_input,
 .form_button{
