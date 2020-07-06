@@ -139,3 +139,7 @@ li>ul>li>a{
     letter-spacing: 9px;
     font-size: 10px;
 }
+
+:empty{
+    text-decoration-color: #030003;
+}
