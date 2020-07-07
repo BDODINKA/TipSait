@@ -76,7 +76,7 @@
     <div class="wrapper">
         <nav>
             <ul class ="topmenu">
-                <li><a href="/index.php" data-title="Интеренет магазин строительных материалов Молоток" data-body="ONe" data-picture="/media/img/pic.png" >Главная</a></li>
+                <li><a href="/index.php" data-title="Интеренет магазин строительных материалов Молоток" data-body="ONe" data-picture="media/img/pic.png" >Главная</a></li>
                 <li><a href="/about.php" data-title="Приходите в наш магазин" data-body="Описание магазина" data-picture="/media/img/catalog.png" >О магазине</a></li>
                 <li>
                     <a href="/index.php" data-title="Категории товаров" data-body="Для мелкого и крупного ремонта" data-picture="/media/img/pic.png">Каталог</a>
