@@ -15,5 +15,6 @@ $('.nav').mouseout(function(){
     $('#logo').attr('src', '/media/img/logo.png');
 
 });
+$( "#draggable" ).draggable();
 
 });

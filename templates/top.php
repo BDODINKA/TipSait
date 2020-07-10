@@ -7,15 +7,16 @@
     <title>Molotok</title>
     <link rel="stylesheet" href="/media/css/style.css">
     <script src="/js/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="/js/main.js"></script>
-</head>
+    </head>
 <body>
 <div class="header">
     <div class="wrapper">
         <header>
             <ul class="hdr-list">
                 <li class="logo">
-                    <a href="/index.php"><img src="/media/img/logo.png" alt="Logo"></a>
+                    <a href="/index.php"><img src="/media/img/logo.png" id=logo  alt="Logo"></a>
                 </li>
                 <li class="description">Интернет магазин <br/>Строительных материалов
                 </li>
@@ -65,6 +66,8 @@
                 <div id="empty">
                 <div id="title"></div> 
                 <div id="body"></div>  
+                
+
 
                 </div>
             </div>
@@ -75,23 +78,23 @@
 <div class="nav">
     <div class="wrapper">
         <nav>
-            <ul class ="topmenu">
-                <li><a href="/index.php" data-title="Интеренет магазин строительных материалов Молоток" data-body="ONe" data-picture="media/img/pic.png" >Главная</a></li>
-                <li><a href="/about.php" data-title="Приходите в наш магазин" data-body="Описание магазина" data-picture="/media/img/catalog.png" >О магазине</a></li>
+            <ul class ="topmenu" id="topmenu">
+                <li><a href="/index.php" data-title="Интеренет магазин строительных материалов Молоток" data-body="ONe" data-picture="pic.png">Главная</a></li>
+                <li><a href="/about.php?url=about" data-title="Приходите в наш магазин" data-body="Описание магазина" data-picture="catalog.png" >О магазине</a></li>
                 <li>
-                    <a href="/index.php" data-title="Категории товаров" data-body="Для мелкого и крупного ремонта" data-picture="/media/img/pic.png">Каталог</a>
+                    <a href="/about.php?url=catalog" data-title="Категории товаров" data-body="Для мелкого и крупного ремонта" data-picture="pic.png">Каталог</a>
                     <ul>
-                        <li><a href="/index.php">Сухие смеси</a></li>
-                        <li><a href="/index.php">Инструмент</a></li>
-                        <li><a href="/index.php">Деревянные изделия</a></li>
-                        <li><a href="/index.php">Строительные Жидкости</a></li>
+                        <li><a href="/about.php?url=smesi">Сухие смеси</a></li>
+                        <li><a href="/about.php?url=instrument">Инструмент</a></li>
+                        <li><a href="/about.php?url=derevo">Деревянные изделия</a></li>
+                        <li><a href="/about.php?url=jidkosti">Строительные Жидкости</a></li>
                     </ul>
                 </li>
-                <li><a href="/index.php" data-title="Распродажа товаров от производителя" data-body="Технониколь" data-picture="/media/img/news.png" >Новости</a></li>
-                <li><a href="/index.php" data-title="Каждому новоселу" data-body="5% скидка" data-picture="/media/img/pic.png" >Скидки</a></li>
-                <li><a href="/index.php"  data-title="Наличный и Безналичный расчет" data-body="А также рассрочка и кредит" data-picture="/media/img/pic.png" >Оплата</a></li>
-                <li><a href="/index.php" data-title="Доставка бесплатная" data-body="от 100 руб" data-picture="/media/img/pic.png" >Доставка</a></li>
-                <li><a href="/contacts.php" data-title="Наш магазин в Минске и Бресте" data-body="По адресу г.Минск ул.Сенницкая" data-picture="/media/img/pic.png">Контакты</a></li>
+                <li><a href="/about.php?url=news" data-title="Распродажа товаров от производителя" data-body="Технониколь" data-picture ="news.png" >Новости</a></li>
+                <li><a href="/about.php?url=skidki" data-title="Каждому новоселу" data-body="5% скидка" data-picture="pic.png" >Скидки</a></li>
+                <li><a href="/about.php?url=pay"  data-title="Наличный и Безналичный расчет" data-body="А также рассрочка и кредит" data-picture="pic.png" >Оплата</a></li>
+                <li><a href="/about.php?url=dostavka" data-title="Доставка бесплатная" data-body="от 100 руб" data-picture="pic.png" >Доставка</a></li>
+                <li><a href="/about.php?url=adress" data-title="Наш магазин в Минске и Бресте" data-body="По адресу г.Минск ул.Сенницкая" data-picture="pic.png">Контакты</a></li>
             </ul>
         </nav>
     </div>

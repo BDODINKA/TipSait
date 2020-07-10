@@ -30,7 +30,7 @@ NOW()
     }
 
 ?>
-<div class="form">
+<div class="form" id="draggable">
 <form action="cabinet.php"  method="post" enctype="multipart/form-data">
          <label for="exampleInputText">Название</label></br>
             <input type="text" name="name" class="form-control" id="exampleInputText"></br>
