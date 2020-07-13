@@ -1,9 +1,9 @@
 $(function(){
 $('ul.topmenu>li>a').mouseover(function(){
-    var title =$(this).attr('data-title');
-    var body =$(this).attr('data-body');
-    var picture =$(this).attr('data-picture');
-    var path = '/media/img/'+picture;
+    let title =$(this).attr('data-title');
+    let body =$(this).attr('data-body');
+    let picture =$(this).attr('data-picture');
+    let path = '/media/img/'+picture;
     $('#title').text(title);
     $('#body').html(body);
     $('#logo').attr('src', path);

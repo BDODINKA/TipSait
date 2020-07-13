@@ -142,5 +142,6 @@ li>ul>li>a{
 #logo{
     max-inline-size: 156px;
     display: inline-block;
+    height: 156px;
     
     }

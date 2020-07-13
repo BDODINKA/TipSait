@@ -6,9 +6,11 @@
     <meta charset="UTF-8">
     <title>Molotok</title>
     <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/modal.css">
     <script src="/js/jquery.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/modal.js"></script>
     </head>
 <body>
 <div class="header">
